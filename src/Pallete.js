@@ -3,11 +3,13 @@ const palette = {
   color: {
     primary: {
       main: "#23A657",
-      white: "#ffffff"
+      white: "#ffffff",
+      900:   "#15C56A"
     },
     secondary: {},
     grey: {
-      main: "#242424 "
+      main: "#242424 ",
+      900:"#DDDDDD"
     },
     error: {
       main: "#E2663F",

@@ -1,7 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import palette  from '../../../Pallete'
- console.log(palette.color.primary.main)
+import palette  from '../../../Pallete';
 const Navbar = styled.nav`
   /* margin: 10px;
   padding: 10px; */
@@ -17,9 +16,9 @@ const List = styled.li`
   list-style: none;
   margin-left: 20px;
   padding: 10px;
-  color:#DDDDDD;
+  color:${palette.color.grey};
   :hover{
-    color:#23A657;
+    color:${palette.color.primary.main};
     cursor:pointer;
     -webkit-transition:bottom .10s ease-in-out;
     -moz-transition:bottom .10s ease-in-out;
