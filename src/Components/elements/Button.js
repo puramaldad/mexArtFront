@@ -33,4 +33,5 @@ export default styled.button`
     -moz-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
   }
+  
 `;

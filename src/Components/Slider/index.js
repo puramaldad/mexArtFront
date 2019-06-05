@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Button from "../elements/Button"
 const Slides = () => {
   return (
     <div className="uk-position-relative uk-visible-toggle uk-light" tabIndex="-1" uk-slideshow="animation: push">
@@ -10,6 +11,7 @@ const Slides = () => {
             <div className="uk-position-center uk-position-small uk-text-center">
                 <h1 className="uk-heading-medium"uk-slideshow-parallax="x: 100,-100">Lorem </h1>
                 <p uk-slideshow-parallax="x: 200,-200">Lorem ipsum dolor sit amet.</p>
+                <Button Primary>Select</Button>
             </div>
         </li>
         <li>
@@ -26,12 +28,12 @@ const Slides = () => {
                 <p uk-slideshow-parallax="y: 50,0,0; opacity: 1,1,0">Lorem ipsum dolor sit amet.</p>
             </div>
         </li>
-        <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
-        <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+        <a className="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous='true' uk-slideshow-item="previous"></a>
+        <a className="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next="true" uk-slideshow-item="next"></a>
 
     </ul>
   
-    <ul class="uk-slideshow-nav uk-dotnav uk-flex-center uk-margin"></ul>
+    <ul className="uk-slideshow-nav uk-dotnav uk-flex-center uk-margin"></ul>
   
 </div>
   )

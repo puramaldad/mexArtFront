@@ -9,7 +9,8 @@ const palette = {
     secondary: {},
     grey: {
       main: "#242424 ",
-      900:"#DDDDDD"
+      900:"#DDDDDD",
+      800:"#f2f2f2"
     },
     error: {
       main: "#E2663F",
