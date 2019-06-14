@@ -10,7 +10,8 @@ const palette = {
     grey: {
       main: "#242424 ",
       900:"#DDDDDD",
-      800:"#f2f2f2"
+      800:"#f2f2f2",
+      700:'#4c4c4c',
     },
     error: {
       main: "#E2663F",

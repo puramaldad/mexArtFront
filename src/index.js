@@ -8,7 +8,7 @@ lib uikit
 */
 import 'uikit/dist/css/uikit.min.css' ;
 import UIkit from 'uikit';
-import Icons from 'uikit/dist/js/uikit-icons';
+import Icons from 'uikit/dist/js/uikit-icons.js'
 import 'uikit/dist/js/uikit.min.js'
 import {BrowserRouter} from 'react-router-dom';
 

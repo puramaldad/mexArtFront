@@ -8,5 +8,5 @@ export default styled.h2`
     font-weight: 600;
     font-family:'Source Sans Pro',sans-serif;
     transition: transform .5s ease-out,opacity .5s ease-in-out;
-    margin-bottom: 40px;
+    position:relative;
 `

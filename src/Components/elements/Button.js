@@ -24,11 +24,12 @@ export default styled.button`
   text-decoration: none;
   letter-spacing: 1px;
   font-weight: 600;
-  border-radius: ${props => (props.rounded ? "30px":"5px" )};
+  border-radius: ${props => (props.rounded ? "30px": null )};
   :hover {
     background: ${props => (props.secondary ? lightGreen : mainColor)};
+    border-radius: ${props => (props.rounded ? "30px": null )};
     color: ${mainWhite};
-    border-radius: 5px;
+    
     -webkit-transition: all 0.3s ease-out;
     -moz-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
